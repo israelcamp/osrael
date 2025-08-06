@@ -1,1 +1,1 @@
-sudo pacman -S hyprland kitty
+yay -S hyprland kitty hyprpaper

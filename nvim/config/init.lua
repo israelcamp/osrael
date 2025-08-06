@@ -178,7 +178,7 @@ rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup {
   'MunifTanjim/nui.nvim',
-  { 'nvim-tree/nvim-tree.lua', opts = {} },
+  { 'nvim-tree/nvim-tree.lua',     opts = {} },
   { 'nvim-tree/nvim-web-devicons', opts = {} },
   -- 'github/copilot.vim', -- AI pair programmer
   'mg979/vim-visual-multi',
