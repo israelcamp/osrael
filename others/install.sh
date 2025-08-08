@@ -1,1 +1,1 @@
-yay -S lazygit openssh
+yay -S lazygit openssh git
