@@ -1,1 +1,1 @@
-git clone https://github.com/israelcamp/hyprland-config.git config
+ln -s ~/osrael/nvim/config/ ~/.config/nvim
