@@ -1,1 +1,1 @@
-sudo pacman -S ghostty
+yay -S ghostty

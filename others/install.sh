@@ -1,1 +1,1 @@
-yay -S lazygit openssh git
+yay -S lazygit openssh git ripgrep
