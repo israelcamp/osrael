@@ -32,6 +32,7 @@
 #clock,
 #memory,
 #temperature,
+#language,
 #custom-power,
 #custom-power-menu {
   color: #000;
@@ -43,6 +44,10 @@
   padding-left: 5px;
   padding-right: 5px;
   background-color: #fff;
+}
+
+#language {
+  background-color: @text;
 }
 
 #battery {

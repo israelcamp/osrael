@@ -13,6 +13,7 @@
     "modules-right": [
       "network",
       "bluetooth",
+      "hyprland/language",
       "pulseaudio",
       "memory",
       "cpu",
@@ -20,6 +21,11 @@
       "battery",
       "custom/power"
     ],
+    "hyprland/language": {
+      "format": "{}",
+      "format-pt": "BR",
+      "format-en": "US"
+  },
   "battery": {
     "format": "{capacity}% {icon}",
     "format-discharging": "{capacity}% {icon}",
