@@ -1,0 +1,70 @@
+/* TokyoNight (dark) for Walker
+   Palette refs: bg:#1a1b26, fg:#c0caf5, mute:#3b4261,
+   blue:#7aa2f7, cyan:#7dcfff, magenta:#bb9af7, green:#9ece6a,
+   red:#f7768e, yellow:#e0af68, orange:#ff9e64
+*/
+
+#window {
+  background: #1a1b26;
+  color: #c0caf5;
+  border: 1px solid #3b4261;
+  border-radius: 14px;
+  box-shadow: 0 22px 60px rgba(0,0,0,.45);
+  padding: 10px;
+}
+
+/* Walker sets .dark/.light on #window when your system prefers dark/light */
+#window.dark { background: #1a1b26; }
+#window.light { background: #e6e9ef; color: #1f2335; }
+
+/* Top bar with module “chips” (if you use them) */
+#bar {
+  background: transparent;
+  padding: 6px 8px 4px;
+  border-bottom: 1px solid rgba(59,66,97,.55);
+}
+
+/* Search row. With typeahead, keep this transparent so hints stay readable. */
+#search {
+  background: transparent;
+  margin: 10px 8px;
+  padding: 8px 10px;
+  border: 1px solid #2b3045;
+  border-radius: 12px;
+}
+
+/* Main list container */
+#list {
+  background: #16161e;
+  margin: 6px 8px 8px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+/* Individual list items */
+#item {
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin: 2px 0;
+}
+
+#item:hover { background: rgba(122,162,247,.08); }           /* blue hover */
+#item.active {
+  background: rgba(122,162,247,.16);
+  border-left: 2px solid #7aa2f7;
+}
+
+/* Text inside items: primary + subtle subtext */
+#item label { color: #c0caf5; }
+#item .sub, #item label.secondary { color: #565f89; }
+
+/* Icons in the list */
+#item image {
+  margin-right: 10px;
+  opacity: .95;
+}
+
+/* Small bits */
+#spinner.visible { color: #7dcfff; }     /* cyan spinner while loading */
+#window.activation { border-color: #7aa2f7; } /* when Activation Mode is held */
+

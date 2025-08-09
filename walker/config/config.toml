@@ -1,0 +1,7 @@
+theme = "tokyonight"        # looks for tokyonight.css (and optional tokyonight.json)
+hotreload_theme = true      # live-reload the CSS when you save
+
+[[builtins.websearch.entries]]
+name = "DuckDuckGo"
+url = "https://duckduckgo.com/?q=%TERM%"
+switcher_only = false
