@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=OSRael
+Description=Omarchy splash screen.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/osrael
+ScriptFile=/usr/share/plymouth/themes/osrael/osrael.script
+ConsoleLogBackgroundColor=0x1a1b26
