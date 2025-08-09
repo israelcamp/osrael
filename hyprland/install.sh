@@ -1,1 +1,1 @@
-yay -S hyprland kitty hyprpaper hyprlock hypridle
+yay -S hyprland kitty hyprpaper hyprlock hypridle hyprcursor
