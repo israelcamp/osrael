@@ -1,1 +1,1 @@
-yay -S neovim
+yay -S neovim wl-clipboard mado
