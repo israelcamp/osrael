@@ -178,7 +178,7 @@ rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup {
   'MunifTanjim/nui.nvim',
-  { 'nvim-tree/nvim-tree.lua',     opts = {} },
+  { 'nvim-tree/nvim-tree.lua', opts = {} },
   { 'nvim-tree/nvim-web-devicons', opts = {} },
   -- 'github/copilot.vim', -- AI pair programmer
   'mg979/vim-visual-multi',
@@ -221,6 +221,9 @@ vim.keymap.set('n', '<C-s>', ':w<CR>')
 
 vim.keymap.set('n', '<leader>ds', vim.diagnostic.open_float, { desc = 'Show full diagnostic' })
 
+-- vim.opt.termguicolors = true
+vim.cmd.colorscheme 'cyberdream'
+--
 -- transparent background
 vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
 vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })

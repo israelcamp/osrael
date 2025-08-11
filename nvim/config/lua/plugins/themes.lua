@@ -1,7 +1,6 @@
 return {
   {
     'navarasu/onedark.nvim',
-    priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       require('onedark').setup {
         style = 'dark',
@@ -10,7 +9,12 @@ return {
       require('onedark').load()
     end,
   },
-  'scottmckendry/cyberdream.nvim',
+  {
+
+    'scottmckendry/cyberdream.nvim',
+    lazy = false,
+    priority = 1000, -- make sure to load this before all the other start plugins
+  },
   {
     'folke/tokyonight.nvim',
     config = function()
@@ -20,7 +24,7 @@ return {
           comments = { italic = false }, -- Disable italics in comments
         },
       }
-    vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'onedark'
     end,
   },
 }
