@@ -1,1 +1,3 @@
 source ~/osrael/zsh/config/ohmyzsh
+
+. "$HOME/.local/bin/env"
