@@ -10,5 +10,5 @@ user = "greeter"
 
 
 [initial_session]
-command = "Hyprland"
+command = "uwsm start hyprland.desktop"
 user = "israel"

@@ -12,7 +12,7 @@ case "${ans:-}" in
 esac
 
 USER_NAME=$USER
-SESSION_CMD="Hyprland"
+SESSION_CMD="uwsm start hyprland.desktop"
 
 # Escape for TOML double-quoted strings
 escape_toml() {
@@ -42,7 +42,7 @@ fi
 echo
 echo "Done. (Tip: keep a [default_session] greeter for after logout.)"
 
-sudo rm -rf /etc/greetd/
+sudo rm -rf /etc/greetd/ /usr/share/wallpapers/
 sudo cp -r ~/osrael/greetd/config/ /etc/greetd
 sudo cp -r ~/osrael/hyprland/wallpapers/ /usr/share/wallpapers
 sudo systemctl enable greetd.service
