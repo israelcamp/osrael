@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo usermod -aG docker $USER
+
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # Set global Git user.name and user.email (works in bash and zsh)
