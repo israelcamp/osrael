@@ -1,0 +1,25 @@
+
+background = #221e24
+foreground = #fdedcd
+cursor-color = #f6c177
+
+palette = 0=#221e24
+palette = 1=#a4342c
+palette = 2=#8fa98b
+palette = 3=#f6c177
+palette = 4=#31748f
+palette = 5=#c4a7e7
+palette = 6=#9ccfd8
+palette = 7=#fde3be
+
+palette = 8=#35242a
+palette = 9=#cf6052
+palette =10=#a9c3a1
+palette =11=#ffd9a6
+palette =12=#3e8fb0
+palette =13=#d3baf7
+palette =14=#bfe4ea
+palette =15=#fff4e6
+
+minimum-contrast = 2.5
+bold-is-bright   = true
