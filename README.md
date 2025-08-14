@@ -1,5 +1,9 @@
 # osRael
 
+## Hyprpaper
+
+To reload the configuration run `systemctl --user restart hyprpaper`
+
 ## Arduino-IDE
 
 Install with `yay -S arduino-ide`.
