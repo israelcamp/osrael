@@ -164,7 +164,7 @@ git_toplevel() {
 setopt prompt_subst
 
 # Path to your small icon (e.g., 2 cells wide, 1 cell tall works great)
-PROMPT_ICON_PATH="~/osrael/zsh/themes/Rlogo.png"
+PROMPT_ICON_PATH="${HOME}/osrael/zsh/themes/Rlogo.png"
 PROMPT_ICON_ID=4242   # any positive integer; reused across prompts
 
 # Print Kitty Graphics Protocol chunks (PNG, base64, chunked, direct)
