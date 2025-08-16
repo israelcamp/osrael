@@ -1,3 +1,3 @@
 rm ~/.zshrc
 ln -s ~/osrael/zsh/config/zshrc ~/.zshrc
-cp ~/osrael/zsh/themes/osrael.zsh-theme ~/.oh-my-zsh/themes/
+cp ~/osrael/zsh/themes/*.zsh-theme ~/.oh-my-zsh/themes/
