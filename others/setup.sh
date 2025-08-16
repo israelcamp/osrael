@@ -3,6 +3,7 @@
 sudo usermod -aG docker $USER
 
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 # Set global Git user.name and user.email (works in bash and zsh)
 set -u
