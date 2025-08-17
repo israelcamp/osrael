@@ -1,4 +1,4 @@
-# osRael
+![osRael](plymouth/themes/osrael/logo.png)
 
 ## Hyprpaper
 
