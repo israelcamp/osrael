@@ -22,5 +22,6 @@ cd waybar && ./install.sh && ./setup.sh && cd ..
 cd nvim && ./install.sh && ./setup.sh && cd ..
 cd files && ./install.sh && cd ..
 cd walker && ./install.sh && ./setup.sh && cd ..
+cd yazi && ./install.sh && cd ..
 
 rm ~/.config/yay/config.json
