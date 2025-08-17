@@ -40,7 +40,7 @@ sudo dd if=<iso-path> of=<usb-path> bs=4M status=progress conv=fsync
 
 Usually `usb-path=/dev/sdb`
 
-## Avoid turninf off when closing lid
+## Avoid turning off when closing lid
 
 ```bash
 
