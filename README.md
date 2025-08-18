@@ -13,6 +13,13 @@ I created my own version called **osRael**.
 To install make sure that you clone this repo in your **HOME** folder.
 After that simply run `./install.sh` and follow any prompt that appear.
 
+### Looks
+
+I tried to pay attention to some colors and themes, here is how it looks currently.
+![desktop](images/desktop.png)
+
+Wallpapers can be found in `hyprland/wallpapers` and can be set by changing the **hyprpaper** config.
+
 ## Useful
 
 ### Hyprpaper
@@ -64,3 +71,9 @@ systemd-inhibit --what=handle-lid-switch sleep 1d`
 ```
 
 You can change the value for sleep, e.g. 2d, 7d, etc..
+
+### Saving images from clipboard
+
+Check the current type in the clipboard with `wl-paste --list-types`.
+
+Save an image from the clipboard with `wl-paste --type image/png > path.png`. Adjust the file format accordingly from the previous command.
